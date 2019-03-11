@@ -1,0 +1,103 @@
+<!doctype>
+<html>
+	<head> 
+		<title> Escola Virtual </title>
+	</head>
+	<body>
+		<table border="1px">
+			<td>
+				<h2 align="center";> Escola Virtual </h2>
+				<h3 align="center";> Formulário de Pré-Matrícula </h3> <hr>
+				<table border="1px" width="500">
+					<tr> <td>
+						<table border="0px">
+							<tr>
+								<td><b>	Dados Pessoais:</b></td>
+							</tr>
+							<tr>
+								<td align="right"> Nome do Aluno: </td>
+								<td> <input type="text" name="nome" maxlength="55"></td>
+							</tr>
+							<tr>
+								<td align="right"> Nascimento(dd/mm/aaaa): </td>
+								<td> <input type="date"></td>
+							</tr>
+							<tr>
+								<td align="right"> Nome da Mãe: </td>
+								<td> <input type="text" name="nome" maxlength="55"></td>
+							</tr>
+							<tr>
+								<td align="right"> Nome do Pai: </td>
+								<td> <input type="text" name="nome" maxlength="55"></td>
+							</tr>
+							<tr>
+								<td align="right"> Telefone: </td>
+								<td> DDD(<input type="tel" size="1" maxlength="2">) Tel: <input type="tel" size="5"> Ramal: <input type="tel" size="3"></td>
+							</tr>
+							<tr>
+								<td align="right"> Email: </td>
+								<td> <input type="e-mail" maxlength="40"></td>
+							</tr>
+						</table>
+
+					</tr></td>
+				
+					<tr> <td>
+						<table border="0px";>
+							<tr>
+								<td><b> Informações de Matrícula:</b></td>
+							</tr>
+							<tr>
+								<td> Série:</td>
+								<td> Turno:</td>
+								<td> Atividades Extracurriculares: </td>
+							</tr>
+							<tr>
+								<td><select name="serie">
+									<option value="pré-esc" selected> pré-escolar </option> 
+									<option value="ens fund"> ensino fundamental</option>
+									<option value="ens méd"> ensino médio</option>
+									<option value="grad">graduação</option>
+									</select></td>
+								<td><input type="radio" name="turno" value="manha"> Manhã </td>
+								<td><input type="checkbox" name="atv1" valor="Inform"> Informática </td>
+							</tr>
+							<tr>				
+								<td></td>
+								<td><input type="radio" name="turno" value="tarde"> Tarde </td>
+								<td><input type="checkbox" name="atv2" valor="Mus"> Música </td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td><input type="checkbox" name="atv3" valor="Balet"> Balet </td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td><input type="checkbox" name="atv4" valor="Pint"> Pintura </td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td><input type="checkbox" name="atv5" valor="Judo"> Judô </td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td><input type="checkbox" name="atv6" valor="Fut"> Futebol </td>
+							</tr>
+						</table> 	
+					</tr></td>
+				</table>	
+
+				<br>
+				<div align="center">
+					<input type="submit" name="enviar" value="Enviar Formulário" >
+ 					<input type="reset" name="limpar" value="Limpar Campos" >
+ 				</div><br>
+ 				
+			</td>
+		</table>
+	</body>
+</html>

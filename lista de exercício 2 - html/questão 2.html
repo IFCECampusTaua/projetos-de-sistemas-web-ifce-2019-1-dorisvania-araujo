@@ -1,0 +1,143 @@
+<!doctype>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Elementos da Estrutura </title>
+		<!--// definindo layout -->
+		<style type="text/css" media="all">
+			*{margin:10;
+			padding:10;
+			}
+
+			#container{
+				margin:0px auto 0px auto;
+				width:500px;
+				height: 500px;
+				background:#000000;
+			}
+						
+			#cabecalho{
+				margin:0px auto 0px auto;
+				width:480px;
+				height:50px;
+				position: relative;
+				background: #8904B1;
+			}
+
+			#logo{
+				margin: 0px auto 0px auto;
+				width:120px;
+				height:30px;
+				float: left;
+				background:#B45F04;
+			}
+
+			#anuncio{
+				margin: 0px auto 0px auto;
+				width: 310px;
+				height: 30px;
+				float: right;
+				background:#BDBDBD;
+
+			}
+
+			#corpo{
+				margin:0px;
+				width:480px;
+				height: 300px;
+				padding-top: 5px;
+				padding-bottom: 10px;
+				min-height: 200px;
+				background: #2EFE9A;
+			}
+
+			nav{
+				margin: 0px auto 0px auto;
+				width: 480px;
+				height: 20px;
+				background: #ff0040;
+			}
+
+			aside{
+				margin: 1px;
+				width: 220px;
+				height: 280px;
+				background: #0B610B;
+				float: left;
+			}
+
+			article{
+				margin: 1px;
+				width: 205px;
+				height: 280px;
+				float: right;
+				background: #F781F3;
+				
+			}
+
+			section{
+				width: 180px;
+				height: 15px;
+				float: left;
+				margin-bottom: 2px;
+				margin-left: 0px;
+				background: #ffaa00;
+			}
+
+			footer{
+				margin:0px;
+				width:480px;
+				height: 50px;
+				padding-top: 5px;
+				padding-bottom: 20px;
+				background: #A9F5E1;
+			}
+
+			#logo_creditos{
+				margin: 0px auto 0px auto;
+				width:100px;
+				height:10px;
+				float: right;
+				border: 3px solid #1a1aff;
+				background:#A9A9F5;
+			}
+		</style>	
+	</head>
+	<body>
+		<div id="container">
+			<header id="cabecalho">
+				<span id="logo"> "header": logo </span>
+				<span id="anuncio"> anúncio</span>
+				
+			</header>
+
+			<nav> 
+				tag nav
+			</nav>
+
+			<div id="corpo">
+				<aside> aside
+					<div> <section> seção </section></div>
+					<div> <section> seção </section></div>
+					<div> <section> seção </section></div>
+					<div> <section> seção </section></div>
+					<div> <section> seção </section></div>
+				</aside>
+
+				<article>
+					<h3> Tag article </h3>
+					<p> é responsável pelo escopo da página </p>
+					
+				</article>
+
+			</div>
+			<footer> rodapé <br>
+				<a href="http://www.w3schools.com/"> <i>Para mais informações </a>
+
+				<div id="logo_creditos"> </div>
+
+				
+			</footer>
+		</div>
+	</body>	
+</html>
