@@ -1,0 +1,93 @@
+table{
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  font-family: Arial;
+  border-collapse: collapse;
+  width: 45%;
+  margin: auto;
+}
+
+th, td{
+  padding: 7px;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+}
+
+td.titulo-a{
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+  width: 23px;
+}
+
+td.titulo-b{
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+  width: 23px;
+}
+
+td.porcento{
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+}
+
+td.classificacao123{
+  color: #003366;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
+}
+
+td.classificacao4{
+  color: #1398BE;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
+}
+
+td.classificacao56{
+  color: #DE9800;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
+}
+
+td.time{
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+}
+
+td.pontos{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: #f7f7f7;
+  width: 20px;
+}
+
+td.d-colunas{
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+td.col-cinza{
+  background: #f7f7f7;
+  text-align: center;
+  font-size: 14px;
+}
+
+tr#separacao{
+  border-bottom: 2px solid #cccccc;
+}

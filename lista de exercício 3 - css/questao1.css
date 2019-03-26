@@ -1,0 +1,114 @@
+body{
+	background-color: #F2F2F2;
+}
+
+#cx-login{
+	background-color: #CECEF6;
+	width: 380px;
+	height: 320px;
+	margin: 100px auto 0px;
+	position: center;
+	border-radius: 5px;
+	opacity: 0.50;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p{
+    color: #08088A;
+    margin-left: 20px;
+    padding: -50x;
+    font-size: 14px;
+    border: 0px;
+}
+
+
+#cx-login-interno{
+	width: 375px;
+	height: 315px;
+	background-color: #fdfdfd; 
+	position: absolute;
+	margin: 2px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+#cx-login-titulo{
+	color: #08088A;
+	height: 60px;
+	text-align: center;
+	font-family: arial;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+
+}
+
+.input-div{
+	margin: -10px 20px -5px 20px;
+	padding: 2px;
+	background-color: #CECEF6;
+	border-radius: 1px;
+
+}
+
+.input-div input{
+	width: 330px;
+	height: 25px;
+	padding-left: 5px;
+	font: normal 13px;
+	color: #aeaeae;
+	border-radius: 2px;
+	border: 1px solid #bfc4c6;
+	outline: none;
+
+}
+
+#input-senha{
+	margin-top: -10px;
+	border: 0px;
+}
+
+#botoes{
+	width: 340px;
+	margin: 18px;
+	margin-top: 5px;
+	
+}
+
+#botao{
+	background-color: #527988;
+	padding: 5px 15px;
+	font: arial 20px width;
+	border-radius: 5px;
+	text-align: center;	
+	margin-top: 10px;
+
+}
+
+#botao-cadastrar{
+	background-color: #ffffff;
+	width: 90px;
+	padding: 1px;
+	font: arial 15px width;
+	border-radius: 5px;
+	border: 1px solid black;
+	color: #527988;
+	text-align: center;	
+	margin: -20px 10px 30px 265px;
+	object-position: right;
+}
+
+#p{
+    color: #08088A;
+    margin-left: 20px;
+    padding: -50x;
+    font-size: 14px;
+    border: 0px;
+    text-align: center;
+}
