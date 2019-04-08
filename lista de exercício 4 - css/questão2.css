@@ -90,11 +90,11 @@ h3{
 
 table{
 	display: block;
-	width: 90%;
+	width: 99,5%;
  	font-family: sans-serif;
   	border-collapse: collapse;
   	background: #ffffff;
-  	padding: 10px 10px 10px 10px;
+  	padding: 10px 0px 10px 10px;
 }
 
 #th-codigo{
@@ -104,6 +104,7 @@ table{
   border-top: transparent;
   font-family: sans-serif;
 }
+
 th{
   padding-right: 50px;
   text-align: left;
@@ -113,29 +114,38 @@ th{
 }
 
 td{
-  padding: 10px;
+  padding: 5px;
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
-  font-size: 12px;
+  font-size: 10px;
   font-family: sans-serif;
 }
 
 td.cliente{
-	font-size: 12px;
+	font-size: 11px;
   	color: #000000;
   	text-align: left;
-  	width:330px;
+  	width:360px;
   	padding-right: 30px;
 }
 td.servico{
-	font-size: 12px;
+	font-size: 11px;
   	color: #000000;
   	text-align: left;
-  	width:200px;
+  	width: 180px;
+  	padding-right: 10px;
+  	font-family: sans-serif;
+}
+td.func{
+	font-size: 11px;
+  	color: #000000;
+  	text-align: left;
+  	width:130px;
   	padding-right: 30px;
+  	font-family: sans-serif;
 }
 
-#botao-viz{
+.botaoviz{
 	background-color: green;
 	color: white;
 	border-radius: 5px;
@@ -144,7 +154,7 @@ td.servico{
 	font: sans-serif;	
 }
 
-#botao-edt{
+.botaoedt{
 	background-color: #868A08;
 	color: white;
 	border-radius: 5px;
@@ -153,7 +163,7 @@ td.servico{
 	font: sans-serif;	
 }
 
-#botao-exc{
+.botaoexc{
 	background-color: red;
 	color: white;
 	border-radius: 5px;
