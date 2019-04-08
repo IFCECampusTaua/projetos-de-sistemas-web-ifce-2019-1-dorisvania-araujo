@@ -1,0 +1,163 @@
+header{
+	min-height: 40px;
+ 	position: fixed;
+ 	top: 10px;
+ 	right: 100px;
+  	left: 100px;
+ 	background: #000000;
+ }
+
+
+h4{
+	color:#A4A4A4;
+	text-align: left;
+	padding-left: 10px;
+	font-family: sans-serif;
+}
+
+#navheader{
+  min-height: 30px;
+  position: fixed;
+  text-align: right;
+  top: 30px;
+  right: 120px;
+  left: 950px;
+  background:#000000;
+}
+
+a{
+  color: #A4A4A4;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+article{
+  min-height: 500px;
+  position: fixed;
+  top: 70px;
+  right: 100px;
+  left: 100px;
+  background: #ffffff;
+  border-right: 2px solid black;
+  border-left: 2px solid black; 
+}
+
+h3{
+	color: #000000;
+ 	padding: 20px 10px 10px 10px;
+	text-decoration: none;
+  	text-align: left;
+  	font-family: sans-serif;
+}
+
+#divBusca{
+  background-color: transparent;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  width: 390px;
+  height: 30px;
+  position: relative;
+  left: 250px;
+  bottom: 50px;
+ }
+
+#txtBusca{
+  float: center;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 12px;
+  border: none;
+  height: 30px;
+  width: 360px;
+}
+
+#botao-nitem{
+	background-color: #0431B4;
+	position: relative;
+	width: 80px;
+	top: -30px;
+	height: 25px;
+	left: 800px;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	font: sans-serif;	
+	padding-top: 5px;
+}
+
+table{
+	display: block;
+	width: 90%;
+ 	font-family: sans-serif;
+  	border-collapse: collapse;
+  	background: #ffffff;
+  	padding: 10px 10px 10px 10px;
+}
+
+#th-codigo{
+  padding: 10px 20px 10px 5px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  border-top: transparent;
+  font-family: sans-serif;
+}
+th{
+  padding-right: 50px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  border-top: transparent;
+  font-family: sans-serif;
+}
+
+td{
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+td.cliente{
+	font-size: 12px;
+  	color: #000000;
+  	text-align: left;
+  	width:330px;
+  	padding-right: 30px;
+}
+td.servico{
+	font-size: 12px;
+  	color: #000000;
+  	text-align: left;
+  	width:200px;
+  	padding-right: 30px;
+}
+
+#botao-viz{
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	width: 80px;
+	text-align: center;
+	font: sans-serif;	
+}
+
+#botao-edt{
+	background-color: #868A08;
+	color: white;
+	border-radius: 5px;
+	width: 55px;
+	text-align: center;
+	font: sans-serif;	
+}
+
+#botao-exc{
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	width: 55px;
+	text-align: center;	
+	font: sans-serif;
+}
