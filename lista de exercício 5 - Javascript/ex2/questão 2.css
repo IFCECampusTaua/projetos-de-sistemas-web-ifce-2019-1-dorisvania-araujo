@@ -1,0 +1,7 @@
+div#mostrarNum{
+	width: 25px;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid black;
+	font-size: 15pt;
+	margin-left: 10px;
+}
