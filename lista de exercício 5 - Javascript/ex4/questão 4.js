@@ -1,6 +1,3 @@
-
-
-document.addEventListener('DOMContentLoaded', function() {
-document.querySelector('#btn').addEventListener('click', function() {
-let text = document.querySelector('#texto').value;});
-});
+function alterarTitulo(){
+	document.getElementById("titulo").innerHTML="IFCE 2019";
+}

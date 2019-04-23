@@ -1,19 +1,12 @@
-var campo1;
-var campo2;
+document.getElementById("botao").addEventListener("click", handleclick, false);
 
-campo1.addEventListener("click", function() {
-  var valorX = document.getElementById("num1").value;
+function handleclick(){
+	var num1 = document.getElementById("cx1").value;
+	var num2 = document.getElementById("cx2").value;
+	document.getElementById("mostrarRes").innerHTML = resto(num1, num2);
 }
 
-campo2.addEventListener("click", function() {
-  var valorY = document.getElementById("num2").value;
+function resto(num1, num2){
+	return num1 % num2
 }
 
-function exibirResto(num1, num2){
-	var resto = valorX % valorY;
-	return resto;
-
-	document.getElementById("mostrarRes").innerHTML = resto;
-}
-
-document.getElementById("botao").addEventListener("click", exibirResto);
